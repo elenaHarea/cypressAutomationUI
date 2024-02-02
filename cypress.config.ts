@@ -10,8 +10,13 @@ export default defineConfig({
       stage:'https://stage.pasv.us/course',
        prod:'https://coding.pasv.us/course',
        test:'Hello World!',
+       demoQA: 'https://demoqa.com',
        homeWork: 'https://play1.automationcamp.ir/expected_conditions.html'
     }
+  },
+  retries: {
+    runMode: 2,
+    openMode: 2,
   },
   defaultCommandTimeout:16_000,
 });
