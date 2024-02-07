@@ -1,4 +1,4 @@
-import {TextBoxPage} from "../../pages/textBox"
+import {TextBoxPage} from './TextBox'
 
 describe('Text Box', ()=>{
 

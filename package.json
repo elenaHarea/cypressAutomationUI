@@ -4,13 +4,16 @@
   "description": "Cypress Automation UI",
   "main": "index.js",
   "scripts": {
-     "open": "cypress open --e2e --browser chrome",
-     "open2": "cypress open --e2e"
+    "open": "cypress open --e2e --browser chrome",
+    "open2": "cypress open --e2e"
   },
   "author": "Elena Harea",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.6.2",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1"
   }
 }
